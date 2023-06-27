@@ -7,7 +7,7 @@ import { useLoader } from "@react-three/fiber";
 import CanvasLoader from '../Loader'
 
 const Computers = ({isMobile = false}) => {
-  const computer = useLoader(GLTFLoader, "/pcscene.gltf");
+  const computer = useLoader(GLTFLoader, "/desktop_pc/pcscene.gltf");
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />

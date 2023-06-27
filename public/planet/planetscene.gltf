@@ -353,10 +353,10 @@
   ],
   "images": [
     {
-      "uri": "planet/textures/Clouds_baseColor.png"
+      "uri": "textures/Clouds_baseColor.png"
     },
     {
-      "uri": "planet/textures/Planet_baseColor.png"
+      "uri": "textures/Planet_baseColor.png"
     }
   ],
   "materials": [
