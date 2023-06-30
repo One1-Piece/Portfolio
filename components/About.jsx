@@ -2,15 +2,14 @@
 import React from 'react'
 import {Tilt} from 'react-tilt'
 import { motion } from "framer-motion"
-
 import { styles } from "../styles/styles";
-import { services } from "../public/constants";
+import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../public/utils/motion"
-import Image from 'next/image';
 
 
 const ServiceCard = ({ index, title, icon }) => {
+  // console.log("icon", icon)
   return (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -25,13 +24,13 @@ const ServiceCard = ({ index, title, icon }) => {
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
-        {/* <img
-          src={icon}
+        <img
+          src={icon.src}
           alt='web-development'
           className='w-16 h-16 object-contain'
-        /> */}
+        />
 
-        <Image src={icon} alt='web-development' width={40} height={40} className='object-contain' />
+        {/* <Image src={icon} alt='web-development' width={40} height={40} className='object-contain' /> */}
 
         <h3 className='text-white text-[20px] font-bold text-center'>
           {title}

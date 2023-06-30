@@ -19,14 +19,16 @@ import {
     starbucks,
     tesla,
     shopify,
+    // job1,
+    // job2,
     carrent,
     jobit,
     tripguide,
     threejs,
-  } from "../assets";
-
-  import aleblogo from '../assets/company/joblogo1.png';
-  import cenlogo from '../assets/company/joblogo2.png';
+  } from "../public/assets";
+  
+  import job1 from "../public/assets/company/joblogo1.png"
+  import job2 from "../public/assets/company/joblogo2.png"
   
   export const navLinks = [
     {
@@ -45,19 +47,19 @@ import {
   
   const services = [
     {
-      title: "Full Stack Developer",
+      title: "Website Design",
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "React/Next.js Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Full Stack Developer",
       icon: backend,
     },
     {
-      title: "Automation",
+      title: "Backend Developer",
       icon: creator,
     },
   ];
@@ -121,7 +123,7 @@ import {
     {
       title: "Software Engineer",
       company_name: "Cen Global",
-      icon: cenlogo,
+      icon: job2,
       iconBg: "#383E56",
       date: "November 2021 - Present",
       points: [
@@ -140,7 +142,7 @@ import {
     {
       title: "Next.js Developer",
       company_name: "Al Ebtikhar E Learning Platform",
-      icon: aleblogo,
+      icon: job1,
       iconBg: "#E6DEDD",
       date: "Oct 2020 - Nov 2021",
       points: [
@@ -186,27 +188,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Taha proved me wrong.",
+      name: "Jenna Ortega",
+      designation: "",
+      company: "Neutrogena",
+      // image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
+        "I've never met a web developer who truly cares about their clients' success like Taha does.",
+      name: "Chris",
+      designation: "CEO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      // image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
+        "After Taha optimized our website, our traffic increased by 50%. We can't thank him enough!",
+      name: "Lisa",
+      designation: "CEO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      // image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   

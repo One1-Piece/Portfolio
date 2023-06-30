@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles/styles";
-import { experiences } from "../public/constants";
+import { experiences } from "../constants/index";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../public/utils/motion";
 import Image from "next/image";
@@ -26,10 +26,10 @@ const ExperienceCard = ({ experience }) => {
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className='flex justify-center items-center w-full h-full'>
-          <Image
-            src={experience.icon}
+          <img
+            src={experience.icon.src}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            className='w-[90%] h-[60%] object-contain'
           />
         </div>
       }
